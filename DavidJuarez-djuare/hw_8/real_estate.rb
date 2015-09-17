@@ -13,8 +13,7 @@ require 'pry-byebug'
     puts "What is the building address?\n"
     address = gets.strip
     Building.new(name, address)
-    puts 
-    add_units_to_building(building)
+    #add_units_to_building(building)
   end
 
   def add_units_to_building(building)
